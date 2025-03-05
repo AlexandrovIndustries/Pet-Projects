@@ -6,7 +6,7 @@ import locale
 locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
 locale.setlocale(locale.LC_ALL, 'rus')
 
-month = 1
+month = int(input())
 
 month_name = calendar.month_name[month]
 print(f"Месяц под номером {month} — это {month_name}.")
