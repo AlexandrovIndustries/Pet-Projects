@@ -18,7 +18,7 @@ def check_website(url):
         else:
             return f"Сайт {url} недоступен. Код ответа: {response.status_code}"
     except requests.exceptions.RequestException as e:
-        return f"⚠️ Ошибка при проверке сайта {url}: {e}"
+        return f"Ошибка при проверке сайта {url}: {e}"
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
