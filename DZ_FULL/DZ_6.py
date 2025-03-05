@@ -1,5 +1,5 @@
 #1 Students 
-"""class Student:
+class Student:
     def __init__(self, name="Ivan", age=18, groupNumber="10A"):
         self.name = name
         self.age = age
@@ -50,7 +50,6 @@ for i, student in enumerate(students, 1):
     print(f"Group Number: {student.getGroupNumber()}")
     print()
 
-"""
 #2 Car
 
 class Car:
